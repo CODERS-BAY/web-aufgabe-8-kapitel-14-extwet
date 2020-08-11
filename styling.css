@@ -1,0 +1,134 @@
+body {
+    margin-top:100px;
+    margin: 0;
+    padding: 0;
+    font-family "Helvetica", Arial, sans-serif;
+    background-color: honeydew;
+    }
+
+nav {
+        
+        width:100%;
+        position: flex;
+        background-color: gray;
+        font-size: 140%;
+    }
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    }
+
+nav a {
+        color: coral;
+        padding: 15px;
+        text-decoration: none;
+        margin: 25px;
+    }
+
+
+h1 {
+    font-size:3rem;
+    font-weight: normal;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+    margin-left: 20;
+    font-weight: bold;
+}
+
+em {
+    color: yellowgreen;
+    background-color: grey;
+}
+
+.abstand {
+    margin-top: 80px;
+}
+
+.mehrspaltig {
+    width: 95%;
+    margin:auto;
+    -webkit-column-width: 22rem;
+    column-width: 22rem;
+    column-count: 2;
+    column-gap: 2em;
+    column-rule-width: 1em;
+    column-rule-style:dashed;
+    column-rule-color: grey;
+}
+
+.imgPosition {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.bildlinks{
+    float:left;
+    margin:right;
+    border-radius:50%;
+    shape-outside: ellipse();
+    shape-margin: 0.5rem;
+    max-width: 300px;
+    width: 100%;
+}
+.bildlinks2{
+    float:left;
+    margin:right;
+    max-width: 300px;
+    width: 100%;
+    clear:both;
+    margin-right: 6px;
+}
+.bildAstro{
+    max-width: 300px;
+}
+.textRight{
+    text-align: right;
+    font-size: xx-large;
+    color: blanchedalmond;
+    font-weight: bold;
+}
+.box {
+    border: 3px solid #ff4433;
+    display:flow-root;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+}
+p {
+    display:flow-root;
+}
+
+.cf::after {
+    content: " ";
+    display:block;
+    clear:both;
+}
+
+footer {
+    background-color: #263238;
+    color: #ffffff;
+    padding: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+
+@media screen and (max-width:720px) {
+    min {
+        display:block;
+    }
+    article {
+        display:block;
+        width: 100%;
+    }
+}
